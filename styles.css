@@ -1,16 +1,19 @@
+:root {
+  --heading-font-family: "Poppins", sans-serif;
+}
 h1,
 h2 {
   text-align: center;
   border-radius: 5px;
   color: black;
-  background-color: #eef06c;
+  background-color: whitesmoke;
   width: 100%;
   padding: 0;
   margin: 0;
+  font-weight: bold;
+  font-family: var(--heading-font-family);
 }
-h1 {
-  font-family: "Poppins", sans-serif;
-}
+
 body {
   margin: 0;
   padding: 0;
@@ -18,6 +21,7 @@ body {
 
 .welcome-section {
   background-image: url(/images/welcome.jpeg);
+
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
