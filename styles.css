@@ -2,6 +2,7 @@
   --heading-font-family: "Poppins", sans-serif;
   --primary-color: black;
   --box-shadow: gray;
+  --branding-color: #f48fb1;
 }
 h1,
 h2 {
@@ -55,4 +56,8 @@ body {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
+}
+.projects-buttom {
+  color: var(--branding-color);
+  font-weight: bold;
 }
