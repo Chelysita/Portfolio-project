@@ -61,3 +61,14 @@ body {
   color: var(--branding-color);
   font-weight: bold;
 }
+.about-section {
+  margin: 50px;
+}
+.about-picture {
+  width: 80%;
+  height: auto;
+}
+.portfolio-images {
+  width: 70%;
+  height: auto;
+}
