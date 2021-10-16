@@ -82,3 +82,7 @@ a {
   text-decoration: none;
   color: black;
 }
+.contact-section {
+  margin: 30px;
+  justify-content: space-evenly;
+}
